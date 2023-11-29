@@ -1,3 +1,6 @@
+#This program allows you to calculate the probability of getting the specified (points) number of points in total. 
+#When (count_dice) dice with (verge) sides are thrown.
+#The percentage is printed, rounded to one decimal place.
 import numpy as np
 
 count_dice, verge, points = int(input()), int(input()), int(input())
