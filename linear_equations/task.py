@@ -22,4 +22,4 @@ try:
     x = np.linalg.solve(A, b)
     print(' '.join(str(val) for val in x))
 except np.linalg.LinAlgError:
-    print("The matrix of the system is singular")
+    print("The matrix of the system is singular!!!")
